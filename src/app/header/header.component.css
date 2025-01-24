@@ -1,26 +1,32 @@
+.navbar {
+  background-color: #4e0203;
+  border-bottom: #d4d4d4 5px solid;
+}
 .logo {
   background-image: url('../assets/images/FyxiousEntertainment_12-01-13.png');
   background-size: contain;
   margin-left: 10px;
+  margin-bottom: 5px;
   height: 120px;
   width: 120px;
 }
 .navbar-title {
   font-family: "subway-berlin-std", sans-serif;
   font-style: normal;
-  font-size: 3em;
-  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 4em;
+  color: #d4d4d4;
   display: flex;
   align-items: center;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .navbar-brand {
-  font-family: "subway-berlin-std", sans-serif;
-  font-style: normal;
-  font-size: 3em;
-  color: #f0f0f0;
+  color: #d4d4d4;
   display: flex;
   align-items: center;
   text-align: center;
+}
+a.nav-link {
+  color: D4D4D4;
 }
