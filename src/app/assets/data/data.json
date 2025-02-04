@@ -2,11 +2,13 @@
     { 
         "id": 1, 
         "name": "John Doe", 
-        "email": "john.doe@example.com" 
+        "title": "john.doe@example.com",
+        "url": "https://www.example.com"
     },
     { 
         "id": 2, 
-        "name": "Jane Smith", 
-        "email": "jane.smith@example.com"
+        "name": "Jane Doe",
+        "title": "john.doe@example.com",
+        "url": "https://www.example.com"
     }
 ]
