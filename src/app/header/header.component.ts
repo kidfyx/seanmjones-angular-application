@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
+import { MatMenuModule, MatMenuPanel } from '@angular/material/menu';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [MatMenuModule],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.less'
+  styleUrls: ['./header.component.less']
 })
 export class HeaderComponent {
+matMenu: MatMenuPanel<any> | null | undefined;
 
 }
